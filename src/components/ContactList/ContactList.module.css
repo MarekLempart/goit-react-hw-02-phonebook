@@ -6,7 +6,7 @@
 .item {
   display: flex;
   gap: 20px;
-  width: 340px;
+  width: 350px;
   justify-content: space-between;
   margin-bottom: 12px;
 }
