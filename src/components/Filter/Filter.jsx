@@ -12,7 +12,7 @@ export const Filter = ({ filter, onChangeInput }) => {
         Find contacts by name
         <br />
         <input
-          className={css.input}
+          className={css.inputContacts}
           onChange={onChangeInput} // gdy zmieni się wartość pola - wywołanie funkcji onChangeInput
           value={filter} // wartość początkową przechowywaną w polu filter
           type="text"
